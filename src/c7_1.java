@@ -1,13 +1,20 @@
 import java.io.File;
 import javax.sound.sampled.*;
 
-public class c3_1 {
-	File a = new File("c3_1.wav");
-	File b = new File("c3_2.wav");
-	File c = new File("c3_3.wav");
-	File e = new File("c3_5.wav");
-	File f = new File("c3_6.wav");
-	File x = new File("c3_7.wav");
+public class c7_1 {
+	File error = new File("error.wav");
+	File a = new File("c7_1.wav");
+	File b = new File("c7_2.wav");
+	File c = new File("c7_3.wav");
+	File d = new File("c7_4.wav");
+	
+	//Вторая часть реплик
+	
+	File e = new File("c7_5.wav");
+	File f = new File("c7_6.wav");
+	File x = new File("c7_7.wav");
+	File l = new File("c7_8.wav");
+	
 	sound er = new sound();
 	
 	static void PlaySound(File Sound) {

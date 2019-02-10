@@ -22,35 +22,35 @@ public class calculator {
 		sound er = new sound();
 		
 		System.out.println(er.c4_1);
-		PlaySound(c4_1.n);
+		PlaySound(c4_1.a);
 		user1 = scan.nextInt();
 		System.out.println(er.c4_1);
-		PlaySound(c4_1.n);
+		PlaySound(c4_1.a);
 		user2 = scan.nextInt();
 		System.out.println(er.c4_3);
 		PlaySound(c4_1.c);
 		quest = scan.nextInt();
 		if(quest == 1) {
 			done = user1 + user2;
-			PlaySound(c4_1.x);
+			PlaySound(c4_1.b);
 			System.out.println(er.c4_2 + done);
 		} if (quest == 2) {
 			done = user1 - user2;
-			PlaySound(c4_1.x);
+			PlaySound(c4_1.b);
 			System.out.println(er.c4_2 + done);
 		} if (quest == 3) {
 			if(user2 > user1) {
 				done = user2 / user1;
-				PlaySound(c4_1.x);
+				PlaySound(c4_1.b);
 				System.out.println(er.c4_2 + done);
 			} if (user1 > user2) {
 				done = user1 / user2;
-				PlaySound(c4_1.x);
+				PlaySound(c4_1.b);
 				System.out.println(er.c4_2 + done);
 			}
 		} if (quest == 4) {
 			done = user1 * user2;
-			PlaySound(c4_1.x);
+			PlaySound(c4_1.b);
 			System.out.println(er.c4_2 + done);
 		}		
 	}
