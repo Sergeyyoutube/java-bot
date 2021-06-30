@@ -2,8 +2,8 @@ import java.io.File;
 import javax.sound.sampled.*;
 
 public class c4_1 {
-	File n = new File("c4_1.wav");
-	File x = new File("c4_2.wav");
+	File a = new File("c4_1.wav");
+	File b = new File("c4_2.wav");
 	File c = new File("c4_3.wav");
 	sound er = new sound();
 	

@@ -23,16 +23,31 @@ public class geniy {
 		int user, cpu, done, max;
 		c5_1 c5_1 = new c5_1();
 		sound er = new sound();
-		n_0 n_0 = new n_0();
+		settings_bot sb = new settings_bot();
 				
 		System.out.println(er.c5_1);
 		max = 10;
 		PlaySound(c5_1.a);
 		cpu = rand.nextInt(max);
 		done = cpu;
-		System.out.println(er.c5_2);
-		//System.out.println(er.c5_2 + done);
-		PlaySound(c5_1.b);
+		if(sb.debug == 0) {
+			System.out.println(er.c5_5);
+			PlaySound(c5_1.f);
+			System.out.println(er.c5_6);
+			PlaySound(c5_1.v);
+			System.out.println(er.c5_2);
+			PlaySound(c5_1.b);
+		} if (sb.debug == 1) {
+			System.out.println(er.c5_5);
+			PlaySound(c5_1.f);
+			System.out.println(er.c5_7);
+			PlaySound(c5_1.n);
+			System.out.println(er.c5_2 + done);
+			PlaySound(c5_1.b);
+		}
+		PlaySound(c5_1.e);
+		PlaySound(c5_1.e);
+		PlaySound(c5_1.x);
 		user = scan.nextInt();
 		if(user == done) {
 			System.out.println(er.c5_3);
@@ -45,5 +60,4 @@ public class geniy {
 			PlaySound(c5_1.d);
 		}
 	}
-
 }
